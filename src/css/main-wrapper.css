@@ -1,0 +1,74 @@
+.main-wrapper 
+{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    line-height: 1.42857143;
+    font-family: roboto,sans-serif;
+    color: #545e6c;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    grid-column: span 7;
+    background: #fff;
+    padding: 60px;
+}
+.main-wrapper .section
+{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    line-height: 1.42857143;
+    font-family: roboto,sans-serif;
+    color: #545e6c;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    display: block;
+    margin-bottom: 60px;
+}
+/* .span .fa-stack .fa-xs
+{
+    display: inline-block;
+    height: 2em;
+    line-height: 2em;
+    position: relative;
+    vertical-align: middle;
+    width: 2em;
+}
+
+.fa .fas-circle {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    text-transform: uppercase;
+    color: #2d7788;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    font-size: 2em;
+    font-family: 'font awesome 5 free';
+    font-weight: 900;
+} */
+/* .fa-stack .fa-xs{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-font-smoothing: antialiased;
+    font-family: inherit;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #2d7788;
+    box-sizing: border-box;
+    font-size: .75em;
+    display: inline-block;
+    height: 2em;
+    line-height: 2em;
+    position: relative;
+    vertical-align: middle;
+    width: 2em;
+} */
