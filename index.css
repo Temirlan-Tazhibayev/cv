@@ -5,7 +5,10 @@ body {
     font-size: 14px;
     padding: 30px;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale
+    -moz-osx-font-smoothing: grayscale;
+    display: flex; /* Add flex display */
+
+
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -43,13 +46,15 @@ p {
 
 .sidebar-wrapper {
     grid-column: span 3;
-    order: 2;
     background: #42a8c0;
-    color: #fff
+    color: #fff;
+    order: 1; /* Add this line to change the order */
+
 }
 
 .sidebar-wrapper a {
     color: #fff
+
 }
 
 .sidebar-wrapper .profile-container {
@@ -79,7 +84,7 @@ p {
 }
 
 .sidebar-wrapper .avatar {
-    max-width: 100px;
+    max-width: 200px;
     margin-bottom: 15px;
     border: 0 solid #fff;
     border-radius: 100%;
@@ -170,7 +175,8 @@ p {
 .main-wrapper {
     grid-column: span 7;
     background: #fff;
-    padding: 60px
+    padding: 60px;
+    order: 2; /* Add this line to change the order */
 }
 
 .main-wrapper .section-title {
@@ -226,6 +232,10 @@ p {
     margin-top: 0;
     margin-bottom: 5px;
     color: #2d7788
+}
+
+.main-wrapper .project-tagline {
+    margin-left: 10px;
 }
 
 .main-wrapper .projects-section .intro {
@@ -298,12 +308,14 @@ p {
     }
 
     .sidebar-wrapper {
-        position: static;
-        width: inherit
+        position: static; /* Remove this line */
+        width: 100%; /* Change to full width */
+
     }
 
     .wrapper {
-        display: block
+        display: block;
+        flex-direction: column; /* Change flex direction to column */
     }
 
     .main-wrapper {
@@ -313,12 +325,18 @@ p {
     .main-wrapper .time {
         position: static;
         display: block;
-        margin-top: 5px
+        margin-top: 5px;
+        padding: 30px; /* Adjust padding */
+
     }
 
     .main-wrapper .upper-row {
         margin-bottom: 0
     }
+
+
+
+
 }
 
 @media(min-width: 992px) {
