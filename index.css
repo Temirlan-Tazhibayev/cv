@@ -138,6 +138,7 @@ p {
     margin-top: 0
 }
 
+
 .sidebar-wrapper .education-container .time {
     color: rgba(255,255,255,.6);
     font-weight: 500;
@@ -215,8 +216,8 @@ p {
 
 .main-wrapper .time {
     position: absolute;
-    right: 0;
-    top: 0;
+    right: 0%;
+    top: 0%;
     color: #97aac3;
     flex: 25%
 }
@@ -322,12 +323,11 @@ p {
         padding: 30px
     }
 
+
     .main-wrapper .time {
         position: static;
         display: block;
-        margin-top: 5px;
-        padding: 30px; /* Adjust padding */
-
+        margin-top: 5px
     }
 
     .main-wrapper .upper-row {
