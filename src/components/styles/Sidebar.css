@@ -1,0 +1,147 @@
+.sidebar {
+    /* flex: 1; */
+    background: #42a8c0;
+    color: #fff;
+}
+
+.sidebar .profile-section {
+    padding: 20px;
+    background: rgba(0,0,0,.2);
+    text-align: center;
+    color: #fff
+}
+
+.sidebar .avatar {
+    max-width: 200px;
+    margin-bottom: 15px;
+    border: 0 solid #fff;
+    border-radius: 100%;
+    box-shadow: 0 1px 1px rgba(0,0,0,.1)
+}
+
+.sidebar .name {
+    font-size: 32px;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 10px
+}
+
+.sidebar .tagline {
+    color: rgba(255,255,255,.6);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0
+}
+
+
+
+/* contact */
+.sidebar .contact-list {
+    list-style-type: none; /* Убираем маркеры у элементов списка */
+    padding: 0; 
+}
+
+.sidebar .contact-list .fas,
+.sidebar-wrapper .contact-list .fab,
+.sidebar-wrapper .contact-list .far {
+    margin-right: 5px;
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+.sidebar .contact-list li {
+    margin-bottom: 15px;
+    font-size: 14px;
+    list-style-type: none;
+    display: flex;
+    align-items: center; /* Центрируем дочерние элементы по вертикали */
+
+}
+
+.sidebar .contact-list li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+}
+
+.sidebar .contact-list li a:hover {
+    text-decoration: underline;
+    /* color: #1a454f */
+}
+
+.sidebar .contact-list i {
+    margin-right: 5px; 
+}
+
+
+
+.sidebar .contact-list li:last-child {
+    margin-bottom: 0;
+}
+
+.sidebar .container-block {
+    padding: 25px;
+}
+
+.sidebar .container-block-title {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+
+/* education */
+
+
+.sidebar .degree {
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 5px
+}
+
+.sidebar .education-container .item {
+    margin-bottom: 15px
+}
+
+.sidebar .education-container .item:last-child {
+    margin-bottom: 0
+}
+
+.sidebar .education-container .meta {
+    color: rgba(255,255,255,.6);
+    font-weight: 500;
+    margin-bottom: 0;
+    margin-top: 0
+}
+
+
+.sidebar .education-container .time {
+    color: rgba(255,255,255,.6);
+    font-weight: 500;
+    margin-bottom: 0
+}
+
+/* languages */
+
+.sidebar .languages-container .lang-desc {
+    color: rgba(255,255,255,.6)
+}
+
+.sidebar .languages-list {
+    list-style-type: none;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.sidebar .languages-list li {
+    margin-bottom: 10px
+}
+
+.sidebar .languages-list li:last-child {
+    margin-bottom: 0
+}
+
+

@@ -1,0 +1,52 @@
+/* Settings.css */
+.settings {
+    position: absolute; /* Don't Change */
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.languages {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    transition: left 0.3s ease;
+    display: flex;
+    padding: 8px 15px;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid #ddd; /* Добавил рамку */
+    border-radius: 5px;
+}
+
+.settings.active .languages {
+    left: 0;
+}
+
+.language {
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px; /* Увеличил размеры */
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.language:hover {
+    background-color: #2980b9;
+}
+
+.language-buttons button {
+    cursor: pointer;
+    background-color: #ecf0f1;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    padding: 8px 15px; /* Подстроил размер под .language */
+    margin-right: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.language-buttons button:hover {
+    background-color: #d2d7d9;
+}
