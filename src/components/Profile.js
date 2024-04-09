@@ -16,7 +16,7 @@ const Profile = ({ language, onLanguageChange }) => {
                     },
                     {
                         degree: "Astana IT University, Магистратура: 'Computer Science and Engineering'",
-                        time: "2023 г. - 2025 г."
+                        time: "2023 г. - настоящее время"
                     }
                 ]
             }
@@ -35,7 +35,7 @@ const Profile = ({ language, onLanguageChange }) => {
                     },
                     {
                         degree: "Astana IT University, Masters: 'Computer Science and Engineering'",
-                        time: "2023 year - 2025 year"
+                        time: "2023 year - present"
                     }
                 ]
             }
