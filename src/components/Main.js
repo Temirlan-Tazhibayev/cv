@@ -56,23 +56,46 @@ const Main = ({ language, onLanguageChange }) => {
                     }
                 ]
             },
+            // skills: {
+            //     items: [
+            //         {
+            //             title: 'Python',
+            //             level: 70
+            //         },
+            //         {
+            //             title: 'WEB dev. & NODE JS',
+            //             level: 60
+            //         },
+            //         {
+            //             title: "Digital Forensincs & OSINT",
+            //             level: 80
+            //         },
+            //         {
+            //             title: 'Pentest & Ethical Hacking',
+            //             level: 90
+            //         }
+            //     ]
+            // },
             skills: {
                 items: [
                     {
-                        title: 'Python',
-                        level: 70
+                        title: 'Инструменты:',
+                        list: 'git, docker, githab Actions, gitlab CI/CD, Postman'
                     },
+ 
                     {
-                        title: 'WEB dev. & NODE JS',
-                        level: 60
+                        title: 'Programming languages',
+                        list: 'JavaScript, TypeScript (NodeJS), Python, PHP'
                     },
+
                     {
-                        title: "Digital Forensincs & OSINT",
-                        level: 80
+                        title: 'Цифровая кримен OSINT',
+                        list: 'Навыки поиска и анализа информации (парсинг (web spiders), OSINT Framework, Maltego, Shodan, ...)'
                     },
+
                     {
-                        title: 'Pentest & Ethical Hacking',
-                        level: 90
+                        title: 'Purple Team',
+                        list: 'Написание документации ИБ, а также процедур провдения тестирования на контроль качества'
                     }
                 ]
             }
@@ -130,23 +153,43 @@ const Main = ({ language, onLanguageChange }) => {
                     }
                 ]
             },
+            // skills: {
+            //     items: [
+            //         {
+            //             title: 'Python',
+            //             level: 70
+            //         },
+            //         {
+            //             title: 'WEB dev. & NODE JS',
+            //             level: 60
+            //         },
+            //         {
+            //             title: "Digital Forensincs & OSINT",
+            //             level: 80
+            //         },
+            //         {
+            //             title: 'Pentest & Ethical Hacking',
+            //             level: 90
+            //         }
+            //     ]
+            // }
             skills: {
                 items: [
                     {
-                        title: 'Python',
-                        level: 70
+                        title: 'Programming languages',
+                        list: 'JavaScript, TypeScript (NodeJS), Python, PHP'
                     },
                     {
-                        title: 'WEB dev. & NODE JS',
-                        level: 60
+                        title: 'Digital OSINT',
+                        list: ''
                     },
                     {
                         title: "Digital Forensincs & OSINT",
-                        level: 80
+                        list: ''
                     },
                     {
-                        title: 'Pentest & Ethical Hacking',
-                        level: 90
+                        title: 'Purple Team',
+                        list: ''
                     }
                 ]
             }
@@ -227,7 +270,7 @@ const Main = ({ language, onLanguageChange }) => {
                 </h2>
         
                 <div className="skillset">
-                    {content[language].skills.items.map((item, index) => (
+                    {/* {content[language].skills.items.map((item, index) => (
                     <div className="item" key={index}>
                         <h3 className="level-title">{item.title}</h3>
                         <div className="level-bar">
@@ -236,6 +279,13 @@ const Main = ({ language, onLanguageChange }) => {
                         </div>
                     </div>
 
+                    ))} */}
+                    {content[language].skills.items.map((item, index) =>(
+                        <div className="item" key={index}>
+                            <span className="title">{item.title}</span>
+                            <span> - </span>
+                            <span className="date">{item.item}</span>
+                        </div>
                     ))}
                     
                 </div>
